@@ -1,0 +1,14 @@
+.widget-button {
+    border: none;
+    display: flex;
+    align-items: center;
+    background-color: #4fe778;
+    padding-right: 12px;
+    padding-left: 12px;
+    cursor: pointer;
+    border-radius: 3600px;
+}
+
+.widget-button:hover {
+    background-color: #345d48;
+}
