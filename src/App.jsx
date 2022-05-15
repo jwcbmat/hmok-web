@@ -1,10 +1,18 @@
-import { useState } from 'react'
-import { Widget } from './components/Widget'
+import { Widget } from './components/Widget/Widget'
 
 function App() {
 
   return (
-    <Widget />
+    <div style={{
+      display: "flex",
+      flexDirection: "column",
+      flex: 1,
+      alignItems: "center",
+      justifyContent: "center",
+    }}
+    >
+      <Widget />
+    </div>
   )
 }
 
