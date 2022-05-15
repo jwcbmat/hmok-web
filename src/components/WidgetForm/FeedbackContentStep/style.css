@@ -1,0 +1,9 @@
+.textarea-feedback:focus {
+    outline: none;
+    border: 2px solid #345d48;
+}
+
+.submit-feedback:hover {
+    background-color: #4fe778 !important;
+    border: 2px solid #345d48 !important;
+}
